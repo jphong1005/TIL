@@ -102,6 +102,67 @@ Server는 물리적 형태에 따라 크게 _Rack Server_, _Tower Server_, _Blad
 
 <br>
 
+### 3️⃣ 서버 IPMI (Intelligent Platform Management Interface)
+<div class="Server IPMI">
+  <table>
+    <thead>
+      <tr>
+        <td></td>
+        <td>IBM (Lenovo)</td>
+        <td>HP (Proliant)</td>
+        <td>DELL</td>
+        <td>Fujitsu</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Port Name</td>
+        <td>IMM</td>
+        <td>ILO</td>
+        <td>iDRAC</td>
+        <td>iRMC</td>
+      </tr>
+      <tr>
+        <td>Installation CD / DVD</td>
+        <td>ServerGuide</td>
+        <td>SmartStart</td>
+        <td>LifeCycle</td>
+        <td>ServerView</td>
+      </tr>
+      <tr>
+        <td>Management Tool</td>
+        <td>System Manager <br>(RAID는 MegaRAID)</td>
+        <td>System Management</td>
+        <td>OMSA <br>(Open Manage Server Administrator)</td>
+        <td>ServerView Suit</td>
+      </tr>
+      <tr>
+        <td>Default IP</td>
+        <td>192.168.70.125</td>
+        <td>DHCP</td>
+        <td>192.168.0.120</td>
+        <td>DHCP <br>(192.168.1.1)</td>
+      </tr>
+      <tr>
+        <td>ID /PW</td>
+        <td>USERID / PASSW0RD</td>
+        <td>administrator / (check top cover)</td>
+        <td>root / calvin <br>root / (check top cover)</td>
+        <td>admin / admin <br>admin / (check top cover)</td>
+      </tr>
+      <tr>
+        <td>Notes</td>
+        <td>Windows는 169.254.95.118로도 access 가능</td>
+        <td>Tftpd로 DHCP IP 할당</td>
+        <td>최신 서버인 경우, top cover 확인</td>
+        <td>DHCP가 default <br>(M7 이후부터 top cover 확인)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
 ## ⚙️ Hardware
 ### 1️⃣ Mainboard
 <img width="50%" height="50%" src="https://github.com/user-attachments/assets/b7fb752c-594e-489e-8b7d-9fba7262a39d" />
